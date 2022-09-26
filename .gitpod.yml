@@ -1,7 +1,8 @@
 tasks:
   - init: npm install
-    command: npm run dev
-
+    command: |
+      export HMR_HOST=`gp url 5143` 
+      npm run dev
 
 ports:
   - port: 5173
