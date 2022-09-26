@@ -1,1 +1,1 @@
-# svelte_calc
+# svelte 월복리계산기
