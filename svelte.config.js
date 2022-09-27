@@ -6,14 +6,7 @@ const config = {
 	preprocess: preprocess(),
 	kit: {
 		adapter: adapter(),
-		vite:{
-			server:{
-				hmr:{
-					clientPort: process.env.HMR_HOST ? 443 : 5143,
-					host:process.env.HMR_HOST ? process.env.HMR_HOST.substring("HTTPS://".length) : "localhost"
-				}
-			}
-		}
+		
 	}
 };
 
