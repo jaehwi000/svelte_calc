@@ -1,8 +1,12 @@
-<div class="md:grid md:grid-cols-3 md:gap-6">
-    <div class="md:col-span-1">
-      <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Profile</h3>
-        <p class="mt-1 text-sm text-gray-600">This information will be displayed publicly so be careful what you share.</p>
-      </div>
-    </div>
+<div class="parent text-center flex flex-col h-screen">
+  <header class="bg-green-400 p-8">Header</header>
+  <main class="bg-gray-400 flex-1 flex">
+      <div class="sidebar-1 bg-yellow-400 p-8">Sidebar 1</div>
+      <div class="content flex-1">Content</div>
+        <div>
+          월복리 <input />
+        </div>
+      <div class="sidebar-2 bg-yellow-400 p-8">Sidebar 2</div>
+  </main> 
+  <footer class="bg-blue-400 p-8">Footer</footer>
 </div>
